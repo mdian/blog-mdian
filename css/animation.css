@@ -1,0 +1,47 @@
+.header-logo-img {
+    animation: movepic 0.2s ease-in-out
+}
+
+body {
+    animation: anim1 2s ease-in-out;
+}
+
+
+
+@keyframes movepic {
+    25% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(50deg)
+    }
+
+    75% {
+        transform: rotate(-50deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+
+
+}
+
+@keyframes anim1 {
+    0% {
+        background: silver
+    }
+
+    25% {
+        background: gray
+    }
+
+    50% {
+        background: black
+    }
+
+    100% {
+        background: gray
+    }
+}

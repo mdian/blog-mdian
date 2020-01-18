@@ -1,0 +1,87 @@
+.emotion-icon {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.emotion-icon .icon {
+    margin: 2px 5px;
+    color: deeppink;
+}
+
+.emotion-icon .icon:hover {
+    margin: 2px 5px;
+    color: #933;
+    cursor: pointer;
+}
+
+.article-desc .article-desc-text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.article-desc {
+    margin-top: 20px;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #33f;
+}
+
+.article-img {
+    height: 80vh;
+}
+
+/* info auther style */
+.info-auther-items {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.info-auther-items .top-title {
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.info-auther-item {
+    background-color: white;
+    margin: 1px 0;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+
+}
+
+.info-auther-item:first-child {
+    margin-top: 0;
+}
+
+.info-auther-img {
+    flex: 1;
+}
+
+.info-auther-title {
+    flex: 6;
+    padding: 5px 5px;
+    align-items: center;
+}
+
+.info-auther-title .title {
+    font-size: 12px;
+}
+
+.info-auther-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.quate {
+    font-style: italic;
+}
