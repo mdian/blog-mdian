@@ -139,10 +139,14 @@
 }
 
 .article-desc .article-desc-text {
-  font-size: 12px;
-  line-height: 1.4;
+  font-size: 13px;
+  line-height: 1.5;
   color: #222;
   text-align: justify;
+}
+.inside-quotation{
+    
+    font-size: 11px;
 }
 
 .metadata-info-name {
